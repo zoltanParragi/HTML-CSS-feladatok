@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .out{
+            width: 70%;
+            padding: 30px;
+            background: rgb(238, 238, 53);
+            border-radius: 10px;
+        }
+        .in-start{
+            width: 100%;
+            height: 30px;
+            background: rgb(158, 158, 51);
+            padding: 3px;
+            margin-bottom: 5px;
+        }
+        .in-start-in{
+            display: inline-block;
+            width: calc(50% - 2px);
+            height: 100%;
+            background: rgb(192, 192, 30);
+        }
+        .in{
+            width: 100%;
+            height: 30px;
+            background: rgb(192, 192, 30);
+            border: 3px solid rgb(158, 158, 51)
+        }
+        .in:not(:last-child){
+            margin-bottom: 5px;
+        }
+    </style>
+    <title>feladat0010</title>
+</head>
+<body>
+    <div class="out">
+        <div class="in-start">
+            <div class="in-start-in"></div>
+            <div class="in-start-in"></div>
+        </div>
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+        <div class="in"></div>
+    </div>
+</body>
+</html>
